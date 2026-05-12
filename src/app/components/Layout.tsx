@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Header } from "./Header";
 import { Navbar } from "./Navbar";
+import { LAYOUT_STYLES } from "../constants/styles";
 
 interface LayoutProps {
   children: ReactNode;
@@ -8,10 +9,10 @@ interface LayoutProps {
 
 export function Layout({ children }: LayoutProps) {
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-900">
+    <div className={LAYOUT_STYLES.page}>
       <Header />
       <Navbar />
-      <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6">{children}</main>
+      <main className={LAYOUT_STYLES.content}>{children}</main>
     </div>
   );
 }

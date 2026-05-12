@@ -1,33 +1,43 @@
+import { Card } from "./ui/card";
+import { SUMMARY_STYLES, TEXT_STYLES } from "../constants/styles";
+import { cn } from "../utils/classNames";
+
+const summaryRows = [
+  { label: "Total Units", value: "24" },
+  { label: "Occupied Units", value: "22" },
+  { label: "Total Tenants", value: "5" },
+  { label: "Monthly Rent Income", value: "$6,700" },
+  { label: "Operating Costs", value: "$8,250", negative: true },
+  { label: "Line of Credit Payment", value: "$2,500", negative: true },
+];
+
 export function BuildingSummary() {
   return (
-    <section className="mt-6 rounded-3xl bg-white p-6 shadow-sm border border-slate-200">
-      <h3 className="text-lg font-semibold text-slate-900">Building Summary</h3>
-      <div className="mt-4 space-y-4 text-sm text-slate-600">
-        <div className="flex justify-between border-b border-slate-200 pb-3">
-          <span>Total Units</span>
-          <span className="font-medium text-slate-900">24</span>
+    <section className="mt-6">
+      <Card>
+        <h3 className={TEXT_STYLES.heading}>Building Summary</h3>
+        <div className={SUMMARY_STYLES.list}>
+          {summaryRows.map((row, index) => {
+            const isLast = index === summaryRows.length - 1;
+
+            return (
+              <div
+                key={row.label}
+                className={isLast ? SUMMARY_STYLES.row : SUMMARY_STYLES.divided_row}
+              >
+                <span>{row.label}</span>
+                <span
+                  className={cn(
+                    row.negative ? TEXT_STYLES.negative_value : TEXT_STYLES.row_value,
+                  )}
+                >
+                  {row.value}
+                </span>
+              </div>
+            );
+          })}
         </div>
-        <div className="flex justify-between border-b border-slate-200 pb-3">
-          <span>Occupied Units</span>
-          <span className="font-medium text-slate-900">22</span>
-        </div>
-        <div className="flex justify-between border-b border-slate-200 pb-3">
-          <span>Total Tenants</span>
-          <span className="font-medium text-slate-900">5</span>
-        </div>
-        <div className="flex justify-between border-b border-slate-200 pb-3">
-          <span>Monthly Rent Income</span>
-          <span className="font-medium text-slate-900">$6,700</span>
-        </div>
-        <div className="flex justify-between border-b border-slate-200 pb-3">
-          <span>Operating Costs</span>
-          <span className="font-medium text-rose-600">$8,250</span>
-        </div>
-        <div className="flex justify-between">
-          <span>Line of Credit Payment</span>
-          <span className="font-medium text-rose-600">$2,500</span>
-        </div>
-      </div>
+      </Card>
     </section>
   );
 }
