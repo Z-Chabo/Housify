@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "rent": 1200,
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "555-123-4567",
+    "apartment": "A101"
+  },
+  {
+    "id": 2,
+    "rent": 1500,
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "email": "bob.smith@example.com",
+    "phone": "555-234-5678",
+    "apartment": "B202"
+  },
+  {
+    "id": 3,
+    "rent": 1000,
+    "firstName": "Charlie",
+    "lastName": "Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "555-345-6789",
+    "apartment": "C303"
+  },
+  {
+    "id": 4,
+    "rent": 1300,
+    "firstName": "Diana",
+    "lastName": "Prince",
+    "email": "diana.prince@example.com",
+    "phone": "555-456-7890",
+    "apartment": "D404"
+  },
+  {
+    "id": 5,
+    "rent": 1100,
+    "firstName": "Eve",
+    "lastName": "Wilson",
+    "email": "eve.wilson@example.com",
+    "phone": "555-567-8901",
+    "apartment": "E505"
+  }
+]

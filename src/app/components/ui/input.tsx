@@ -1,11 +1,17 @@
 import { FORM_STYLES } from "../../constants/styles";
+import { cn } from "../../utils/classNames";
 
-export function Input({ placeholder }: { placeholder: string }) {
+interface InputProps {
+  className?: string;
+  placeholder: string;
+}
+
+export function Input({ className, placeholder }: InputProps) {
   return (
     <input
       type="text"
       placeholder={placeholder}
-      className={FORM_STYLES.input}
+      className={cn(FORM_STYLES.input, className)}
     />
   );
 }
