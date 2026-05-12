@@ -1,15 +1,18 @@
+import { Card } from "./ui/card";
+import { BADGE_STYLES, TEXT_STYLES } from "../constants/styles";
+
 export function OverviewHeader() {
   return (
-    <section className="mt-6 rounded-3xl bg-white p-6 shadow-sm border border-slate-200">
-      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-        <div>
-          <h2 className="text-2xl font-semibold text-slate-900">Sunrise Towers</h2>
-          <p className="mt-1 text-sm text-slate-500">123 Main St, Downtown</p>
+    <section className="mt-6">
+      <Card>
+        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <div>
+            <h2 className={TEXT_STYLES.page_heading}>Sunrise Towers</h2>
+            <p className={`mt-1 ${TEXT_STYLES.muted}`}>123 Main St, Downtown</p>
+          </div>
+          <span className={BADGE_STYLES.info}>Owned by Metro Properties LLC</span>
         </div>
-        <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-2 text-sm font-medium text-blue-700">
-          Owned by Metro Properties LLC
-        </span>
-      </div>
+      </Card>
     </section>
   );
 }

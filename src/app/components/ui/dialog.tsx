@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
+import { SURFACE_STYLES } from "../../constants/styles";
 
 export function Dialog({ children }: { children: ReactNode }) {
-  return <div className="rounded-3xl bg-white p-6 shadow-xl border border-slate-200">{children}</div>;
+  return <div className={SURFACE_STYLES.dialog}>{children}</div>;
 }

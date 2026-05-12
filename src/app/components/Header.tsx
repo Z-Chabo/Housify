@@ -1,9 +1,10 @@
 import housifyLogo from "../../imports/image.png";
+import { LAYOUT_STYLES, SURFACE_STYLES, TEXT_STYLES } from "../constants/styles";
 
 export function Header() {
   return (
-    <header className="bg-white border-b border-slate-200">
-      <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-4 sm:px-6">
+    <header className={SURFACE_STYLES.header}>
+      <div className={LAYOUT_STYLES.header_inner}>
         <img
           src={housifyLogo}
           alt="Housify logo"
@@ -11,8 +12,8 @@ export function Header() {
         />
 
         <div className="space-y-1">
-          <p className="text-base font-semibold text-slate-900">Housify</p>
-          <p className="text-sm text-slate-500">
+          <p className={TEXT_STYLES.brand}>Housify</p>
+          <p className={TEXT_STYLES.muted}>
             Apartment Management Software
           </p>
         </div>

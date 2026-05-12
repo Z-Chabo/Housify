@@ -1,4 +1,5 @@
 import { Card } from "./ui/card";
+import { TEXT_STYLES } from "../constants/styles";
 
 interface MetricCardProps {
   label: string;
@@ -7,12 +8,17 @@ interface MetricCardProps {
   valueClass?: string;
 }
 
-export function MetricCard({ label, value, description, valueClass = "text-slate-900" }: MetricCardProps) {
+export function MetricCard({
+  label,
+  value,
+  description,
+  valueClass = TEXT_STYLES.metric_value,
+}: MetricCardProps) {
   return (
     <Card>
-      <p className="text-sm font-medium text-slate-500">{label}</p>
-      <p className={`mt-4 text-3xl font-semibold ${valueClass}`}>{value}</p>
-      <p className="mt-2 text-sm text-slate-500">{description}</p>
+      <p className={TEXT_STYLES.label}>{label}</p>
+      <p className={`mt-4 ${TEXT_STYLES.value} ${valueClass}`}>{value}</p>
+      <p className={`mt-2 ${TEXT_STYLES.description}`}>{description}</p>
     </Card>
   );
 }

@@ -1,9 +1,6 @@
 import type { ReactNode } from "react";
+import { BUTTON_STYLES } from "../../constants/styles";
 
 export function Button({ children }: { children: ReactNode }) {
-  return (
-    <button className="rounded-full bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-blue-700">
-      {children}
-    </button>
-  );
+  return <button className={BUTTON_STYLES.primary}>{children}</button>;
 }

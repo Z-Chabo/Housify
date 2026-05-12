@@ -1,8 +1,9 @@
 import { MetricCard } from "./MetricCard";
+import { LAYOUT_STYLES, TEXT_STYLES } from "../constants/styles";
 
 export function MetricsGrid() {
   return (
-    <div className="mt-6 grid gap-4 md:grid-cols-4">
+    <div className={LAYOUT_STYLES.metrics_grid}>
       <MetricCard
         label="Occupancy"
         value="92%"
@@ -22,7 +23,7 @@ export function MetricsGrid() {
         label="Net Income"
         value="$-4,050"
         description="After all expenses"
-        valueClass="text-rose-600"
+        valueClass={TEXT_STYLES.danger}
       />
     </div>
   );
