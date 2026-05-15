@@ -1,5 +1,5 @@
-import { Card } from "./ui/card";
-import { FORM_STYLES, TEXT_STYLES } from "../constants/styles";
+import { Card } from "../ui/Card";
+import { FORM_STYLES, TEXT_STYLES } from "../../constants/styles";
 
 export function BuildingSelect() {
   return (

@@ -1,5 +1,5 @@
-import { Card } from "./ui/card";
-import { BADGE_STYLES, TEXT_STYLES } from "../constants/styles";
+import { Card } from "../ui/Card";
+import { BADGE_STYLES, TEXT_STYLES } from "../../constants/styles";
 
 export function OverviewHeader() {
   return (
