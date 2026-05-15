@@ -6,7 +6,7 @@ export const SURFACE_STYLES = {
 };
 
 export const LAYOUT_STYLES = {
-  page: "min-h-screen bg-slate-100 text-slate-900",
+  shell: "min-h-screen bg-slate-100 text-slate-900",
   content: "mx-auto max-w-6xl px-4 py-8 sm:px-6",
   header_inner: "mx-auto flex max-w-6xl items-center gap-4 px-4 py-4 sm:px-6",
   nav_inner: "mx-auto flex max-w-6xl items-center gap-4 text-sm font-medium",
@@ -49,9 +49,8 @@ export const BADGE_STYLES = {
 };
 
 export const SUMMARY_STYLES = {
-  list: "mt-4 space-y-4 text-sm text-slate-600",
-  row: "flex justify-between",
-  divided_row: "flex justify-between border-b border-slate-200 pb-3",
+  list: "mt-4 divide-y divide-gray-400 text-sm text-slate-600",
+  row: "flex justify-between py-4",
 };
 
 export const ICON_SIZES = {

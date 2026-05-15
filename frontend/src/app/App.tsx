@@ -1,25 +1,33 @@
-import { Layout } from "./components/Layout";
-import { OverviewPage } from "./components/OverviewPage";
+import { OverviewPage } from "./components/overview/OverviewPage";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router";
-import { TenantList } from "./components/TenantList";
-import { FinancialSummary } from "./components/FinancialSummary";
-import { MonthlyStatement } from "./components/MonthlyStatement";
-import {AddExpense} from "./components/AddExpense";
+import { TenantList } from "./components/tenantsList/TenantList";
+import { FinancialSummary } from "./components/financials/FinancialSummary";
+import { MonthlyStatement } from "./components/statements/MonthlyStatement";
+import { AddExpense } from "./components/addExpense/AddExpense";
+import { Header } from "./appLayout/Header";
+import { Navbar } from "./appLayout/Navbar";
+import {Main} from "./appLayout/Main";
+import {Shell} from "./appLayout/Shell";
 
 
 function App() {
   return (
     <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<OverviewPage />} />
-          <Route path="/tenants" element={<TenantList />} />
-          <Route path="/financials" element={<FinancialSummary />} />
-          <Route path="/statements" element={<MonthlyStatement />} />
-          <Route path="/add-expense" element={<AddExpense />} />
-        </Routes>
-      </Layout>
-    </BrowserRouter>  );
+      <Shell>
+        <Header />
+        <Navbar />  
+        <Main>
+          <Routes>
+            <Route path="/" element={<Navigate to="/overview" />} />
+            <Route path="/overview" element={<OverviewPage />} />
+            <Route path="/tenants" element={<TenantList />} />
+            <Route path="/financials" element={<FinancialSummary />} />
+            <Route path="/statements" element={<MonthlyStatement />} />
+            <Route path="/add-expense" element={<AddExpense />} />
+          </Routes>
+        </Main>
+      </Shell>
+    </BrowserRouter>);
 }
 
 export default App;

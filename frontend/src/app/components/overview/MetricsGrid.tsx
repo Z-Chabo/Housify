@@ -1,5 +1,5 @@
 import { MetricCard } from "./MetricCard";
-import { LAYOUT_STYLES, TEXT_STYLES } from "../constants/styles";
+import { LAYOUT_STYLES, TEXT_STYLES } from "../../constants/styles";
 
 export function MetricsGrid() {
   return (

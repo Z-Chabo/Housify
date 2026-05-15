@@ -1,5 +1,5 @@
-import { Card } from "./ui/card";
-import { TEXT_STYLES } from "../constants/styles";
+import { Card } from "../ui/Card";
+import { TEXT_STYLES } from "../../constants/styles";
 
 interface MetricCardProps {
   label: string;

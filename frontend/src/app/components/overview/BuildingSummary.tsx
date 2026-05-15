@@ -1,6 +1,6 @@
-import { Card } from "./ui/card";
-import { SUMMARY_STYLES, TEXT_STYLES } from "../constants/styles";
-import { cn } from "../utils/classNames";
+import { Card } from "../ui/Card";
+import { SUMMARY_STYLES, TEXT_STYLES } from "../../constants/styles";
+import { cn } from "../../utils/classNames";
 
 const summaryRows = [
   { label: "Total Units", value: "24" },
@@ -17,19 +17,17 @@ export function BuildingSummary() {
       <Card>
         <h3 className={TEXT_STYLES.heading}>Building Summary</h3>
         <div className={SUMMARY_STYLES.list}>
-          {summaryRows.map((row, index) => {
-            const isLast = index === summaryRows.length - 1;
+          {summaryRows.map((row) => {
 
             return (
               <div
                 key={row.label}
-                className={isLast ? SUMMARY_STYLES.row : SUMMARY_STYLES.divided_row}
+                className={SUMMARY_STYLES.row}
               >
                 <span>{row.label}</span>
                 <span
-                  className={cn(
-                    row.negative ? TEXT_STYLES.negative_value : TEXT_STYLES.row_value,
-                  )}
+                  className={
+                    row.negative ? TEXT_STYLES.negative_value : TEXT_STYLES.row_value}
                 >
                   {row.value}
                 </span>

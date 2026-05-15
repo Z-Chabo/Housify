@@ -1,17 +1,17 @@
 import { FORM_STYLES } from "../../constants/styles";
 import { cn } from "../../utils/classNames";
 
-interface InputProps {
+type InputProps = {
   className?: string;
   placeholder: string;
-}
+} & React.InputHTMLAttributes<HTMLInputElement>;
 
-export function Input({ className, placeholder }: InputProps) {
+export function Input({ className, placeholder, ...props  }: InputProps) {
   return (
     <input
-      type="text"
       placeholder={placeholder}
       className={cn(FORM_STYLES.input, className)}
+      {...props}
     />
   );
 }
