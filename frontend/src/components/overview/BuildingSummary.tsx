@@ -1,6 +1,5 @@
 import { Card } from "../ui/Card";
 import { SUMMARY_STYLES, TEXT_STYLES } from "../../constants/styles";
-import { cn } from "../../utils/classNames";
 
 const summaryRows = [
   { label: "Total Units", value: "24" },

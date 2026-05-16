@@ -1,6 +1,6 @@
 import { MdMenu, MdPerson, MdShowChart, MdAssignment } from "react-icons/md";
-import { CONTAINER_STYLES, ICON_SIZES, LAYOUT_STYLES } from "../constants/styles";
-import { getNavButtonClasses } from "../utils/classNames";
+import { CONTAINER_STYLES, ICON_SIZES, LAYOUT_STYLES } from "../../constants/styles";
+import { getNavButtonClasses } from "../../utils/classNames";
 import { NavLink } from "react-router";
 
 export function Navbar() {

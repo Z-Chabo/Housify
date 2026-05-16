@@ -1,5 +1,5 @@
-import { LAYOUT_STYLES } from "../constants/styles";
-import { cn } from "../utils/classNames";
+import { LAYOUT_STYLES } from "../../constants/styles";
+import { cn } from "../../utils/classNames";
 
 type ShellProps = {
   children: React.ReactNode;

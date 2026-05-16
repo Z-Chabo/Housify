@@ -4,10 +4,10 @@ import { TenantList } from "./components/tenantsList/TenantList";
 import { FinancialSummary } from "./components/financials/FinancialSummary";
 import { MonthlyStatement } from "./components/statements/MonthlyStatement";
 import { AddExpense } from "./components/addExpense/AddExpense";
-import { Header } from "./appLayout/Header";
-import { Navbar } from "./appLayout/Navbar";
-import {Main} from "./appLayout/Main";
-import {Shell} from "./appLayout/Shell";
+import { Header } from "./components/appLayout/Header";
+import { Navbar } from "./components/appLayout/Navbar";
+import {Main} from "./components/appLayout/Main";
+import {Shell} from "./components/appLayout/Shell";
 
 
 function App() {

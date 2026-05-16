@@ -1,5 +1,5 @@
 const housifyLogo = "/imports/image.png";
-import { LAYOUT_STYLES, SURFACE_STYLES, TEXT_STYLES } from "../constants/styles";
+import { LAYOUT_STYLES, SURFACE_STYLES, TEXT_STYLES } from "../../constants/styles";
 
 export function Header() {
   return (
