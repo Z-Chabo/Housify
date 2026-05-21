@@ -1,0 +1,14 @@
+{
+    "include": ["**/*.ts"], // include all TypeScript files and subfolders in the project
+    "compilerOptions": {
+        "target": "ES2022", // compile code into modern JavaScript
+        "module": "NodeNext", // tells TypeScript to use Node module system to support import such as "import express from 'express';"
+        "moduleResolution": "NodeNext", // tells TypeScript how to resolve modules sush as "import express from 'express';"
+        "strict":true ,
+        "esModuleInterop":true, // makes typescript able to resolve old packages that use commonJS exports,
+        "resolveJsonModule": true, //allows me to import buildings.js into typescript files
+        "skipLibCheck": true, // don't check types of node_modules, which can speed up compilation
+        "outDir": "dist", // output compiled JavaScript files to the dist directory
+
+    }
+}

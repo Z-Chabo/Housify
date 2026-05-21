@@ -1,0 +1,102 @@
+[
+  {
+    "id": "bldg001",
+    "name": "Sunrise Towers",
+    "owner": "Metro Properties LLC",
+    "address": {
+      "street": "1245 Sherbrooke Street West",
+      "city": "Montreal",
+      "province": "QC",
+      "postalCode": "H3G 1G2",
+      "country": "Canada"
+    },
+    "units": 24,
+    "occupiedUnits": 22,
+    "vacantUnits": 2,
+    "monthlyRentIncome": 67000,
+    "monthlyOperatingCosts": 8250,
+    "lineOfCreditPayment": 2500,
+    "propertyManager": "Nadia Benali",
+    "status": "active"
+  },
+  {
+    "id": "bldg002",
+    "name": "Maple Court Apartments",
+    "owner": "Northgate Holdings",
+    "address": {
+      "street": "88 Maple Avenue",
+      "city": "Laval",
+      "province": "QC",
+      "postalCode": "H7N 2R1",
+      "country": "Canada"
+    },
+    "units": 18,
+    "occupiedUnits": 17,
+    "vacantUnits": 1,
+    "monthlyRentIncome": 43800,
+    "monthlyOperatingCosts": 6100,
+    "lineOfCreditPayment": 1800,
+    "propertyManager": "Julien Moreau",
+    "status": "active"
+  },
+  {
+    "id": "bldg003",
+    "name": "Riverside Lofts",
+    "owner": "Harbourstone Group",
+    "address": {
+      "street": "410 Canal Street",
+      "city": "Montreal",
+      "province": "QC",
+      "postalCode": "H4C 2C7",
+      "country": "Canada"
+    },
+    "units": 12,
+    "occupiedUnits": 10,
+    "vacantUnits": 2,
+    "monthlyRentIncome": 35600,
+    "monthlyOperatingCosts": 4700,
+    "lineOfCreditPayment": 1200,
+    "propertyManager": "Amelia Roy",
+    "status": "active"
+  },
+  {
+    "id": "bldg004",
+    "name": "Cedar Park Residence",
+    "owner": "Cedar Park Investments",
+    "address": {
+      "street": "7320 Cote-Saint-Luc Road",
+      "city": "Montreal",
+      "province": "QC",
+      "postalCode": "H4W 1P7",
+      "country": "Canada"
+    },
+    "units": 30,
+    "occupiedUnits": 28,
+    "vacantUnits": 2,
+    "monthlyRentIncome": 79200,
+    "monthlyOperatingCosts": 11250,
+    "lineOfCreditPayment": 3200,
+    "propertyManager": "Marc Tremblay",
+    "status": "active"
+  },
+  {
+    "id": "bldg005",
+    "name": "Oakview Place",
+    "owner": "Metro Properties LLC",
+    "address": {
+      "street": "515 Oakview Boulevard",
+      "city": "Longueuil",
+      "province": "QC",
+      "postalCode": "J4K 3V9",
+      "country": "Canada"
+    },
+    "units": 16,
+    "occupiedUnits": 14,
+    "vacantUnits": 2,
+    "monthlyRentIncome": 31200,
+    "monthlyOperatingCosts": 5200,
+    "lineOfCreditPayment": 1500,
+    "propertyManager": "Sofia Haddad",
+    "status": "maintenance"
+  }
+]

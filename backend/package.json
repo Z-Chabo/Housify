@@ -1,5 +1,4 @@
 {
-  "comment": "This is the package.json file for the backend of the application. It specifies the project metadata, dependencies, and scripts. The 'devEngines' field indicates that pnpm is used as the package manager, and it should be downloaded if not already available.",
   "name": "backend",
   "version": "1.0.0",
   "description": "",
