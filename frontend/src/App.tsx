@@ -8,18 +8,23 @@ import { Header } from "./components/appLayout/Header";
 import { Navbar } from "./components/appLayout/Navbar";
 import {Main} from "./components/appLayout/Main";
 import {Shell} from "./components/appLayout/Shell";
+import type { Building } from "./types/buildings";
+import { useState } from "react";
+import {BuildingSelect} from "./components/overview/BuildingSelect";
 
 
 function App() {
+  const [selectedBuilding, setSelectedBuilding] = useState<Building | null>(null);
   return (
     <BrowserRouter>
       <Shell>
         <Header />
         <Navbar />  
+        <BuildingSelect onBuildingSelect={setSelectedBuilding} />
         <Main>
           <Routes>
             <Route path="/" element={<Navigate to="/overview" />} />
-            <Route path="/overview" element={<OverviewPage />} />
+            <Route path="/overview" element={<OverviewPage selectedBuilding={selectedBuilding}/>} />
             <Route path="/tenants" element={<TenantList />} />
             <Route path="/financials" element={<FinancialSummary />} />
             <Route path="/statements" element={<MonthlyStatement />} />

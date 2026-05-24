@@ -17,7 +17,7 @@ export type Building = {
   occupiedUnits: number;
   vacantUnits: number;
   monthlyRentIncome: number;
-  monthlyOperatingCosts: number;
+  expenses: Record<string, number>;
   lineOfCreditPayment: number;
   propertyManager: string;
   status: BuildingStatus;

@@ -1,5 +1,7 @@
 import { Card } from "../ui/Card";
 import { SUMMARY_STYLES, TEXT_STYLES } from "../../constants/styles";
+import type { Building } from "../../types/buildings";
+import {calculateMonthlyCosts} from "../../utils/calculateMonthlyCosts";
 
 const summaryRows = [
   { label: "Total Units", value: "24" },
@@ -9,8 +11,17 @@ const summaryRows = [
   { label: "Operating Costs", value: "$8,250", negative: true },
   { label: "Line of Credit Payment", value: "$2,500", negative: true },
 ];
-
-export function BuildingSummary() {
+interface BuildingSummaryProps {
+  building: Building | null;
+}
+export function BuildingSummary({ building }: BuildingSummaryProps) {
+  const summaryRows = [
+  { label: "Total Units", value: building?.units.toString() || "N/A" },
+  { label: "Occupied Units", value: building?.occupiedUnits?.toString() || "N/A" },
+  { label: "Monthly Rent Income", value: building?.monthlyRentIncome?.toString() || "N/A" },
+  { label: "Monthly Operating Costs", value: building ? calculateMonthlyCosts(building.expenses).toString() : "N/A", negative: true },
+  { label: "Line of Credit Payment", value: building?.lineOfCreditPayment?.toString() || "N/A", negative: true },
+];
   return (
     <section className="mt-6">
       <Card>

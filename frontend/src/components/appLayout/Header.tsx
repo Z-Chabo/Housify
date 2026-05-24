@@ -1,4 +1,4 @@
-const housifyLogo = "/imports/image.png";
+import housifyLogo from "../../assets/image.png";
 import { LAYOUT_STYLES, SURFACE_STYLES, TEXT_STYLES } from "../../constants/styles";
 
 export function Header() {
@@ -8,7 +8,7 @@ export function Header() {
         <img
           src={housifyLogo}
           alt="Housify logo"
-          className="h-12 w-12 object-contain"
+          className="h-40 w-40 object-contain"
         />
 
         <div className="space-y-1">

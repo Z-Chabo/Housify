@@ -31,7 +31,7 @@ export const TEXT_STYLES = {
   description: "text-sm text-slate-500",
   heading: "text-lg font-semibold text-slate-900",
   section_heading: "text-xl font-semibold text-slate-900",
-  page_heading: "text-2xl font-semibold text-slate-900",
+  page_heading: "text-2xl font-bold text-black",
   brand: "text-base font-semibold text-slate-900",
   muted: "text-sm text-slate-500",
   row_value: "font-medium text-slate-900",

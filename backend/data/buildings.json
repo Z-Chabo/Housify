@@ -14,7 +14,15 @@
     "occupiedUnits": 22,
     "vacantUnits": 2,
     "monthlyRentIncome": 67000,
-    "monthlyOperatingCosts": 8250,
+    "expenses": {
+      "hydroQuebec": 1850,
+      "bellInternet": 420,
+      "cleaningServices": 950,
+      "snowRemoval": 700,
+      "propertyTaxes": 2600,
+      "insurance": 1100,
+      "maintenanceRepairs": 630
+    },
     "lineOfCreditPayment": 2500,
     "propertyManager": "Nadia Benali",
     "status": "active"
@@ -34,7 +42,15 @@
     "occupiedUnits": 17,
     "vacantUnits": 1,
     "monthlyRentIncome": 43800,
-    "monthlyOperatingCosts": 6100,
+    "expenses": {
+      "hydroQuebec": 1200,
+      "videotron": 300,
+      "janitorialServices": 650,
+      "landscaping": 450,
+      "propertyTaxes": 1900,
+      "insurance": 900,
+      "maintenanceRepairs": 700
+    },
     "lineOfCreditPayment": 1800,
     "propertyManager": "Julien Moreau",
     "status": "active"
@@ -54,7 +70,15 @@
     "occupiedUnits": 10,
     "vacantUnits": 2,
     "monthlyRentIncome": 35600,
-    "monthlyOperatingCosts": 4700,
+    "expenses": {
+      "hydroQuebec": 980,
+      "rogersInternet": 220,
+      "cleaningServices": 500,
+      "securityMonitoring": 350,
+      "propertyTaxes": 1450,
+      "insurance": 750,
+      "maintenanceRepairs": 450
+    },
     "lineOfCreditPayment": 1200,
     "propertyManager": "Amelia Roy",
     "status": "active"
@@ -74,7 +98,15 @@
     "occupiedUnits": 28,
     "vacantUnits": 2,
     "monthlyRentIncome": 79200,
-    "monthlyOperatingCosts": 11250,
+    "expenses": {
+      "hydroQuebec": 2400,
+      "bellInternet": 550,
+      "janitorialServices": 1400,
+      "snowRemoval": 950,
+      "propertyTaxes": 3400,
+      "insurance": 1550,
+      "maintenanceRepairs": 1000
+    },
     "lineOfCreditPayment": 3200,
     "propertyManager": "Marc Tremblay",
     "status": "active"
@@ -94,7 +126,15 @@
     "occupiedUnits": 14,
     "vacantUnits": 2,
     "monthlyRentIncome": 31200,
-    "monthlyOperatingCosts": 5200,
+    "expenses": {
+      "hydroQuebec": 1050,
+      "videotron": 260,
+      "cleaningServices": 450,
+      "landscaping": 300,
+      "propertyTaxes": 1700,
+      "insurance": 800,
+      "maintenanceRepairs": 640
+    },
     "lineOfCreditPayment": 1500,
     "propertyManager": "Sofia Haddad",
     "status": "maintenance"
