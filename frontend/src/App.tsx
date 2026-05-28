@@ -1,7 +1,7 @@
 import { OverviewPage } from "./components/overview/OverviewPage";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router";
 import { TenantList } from "./components/tenantsList/TenantList";
-import { FinancialSummary } from "./components/financials/FinancialSummary";
+import { Expenses } from "./components/financials/FinancialSummary";
 import { MonthlyStatement } from "./components/statements/MonthlyStatement";
 import { AddExpense } from "./components/addExpense/AddExpense";
 import { Header } from "./components/appLayout/Header";
@@ -25,9 +25,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/overview" />} />
             <Route path="/overview" element={<OverviewPage selectedBuilding={selectedBuilding}/>} />
-            <Route path="/tenants" element={<TenantList />} />
-            <Route path="/financials" element={<FinancialSummary />} />
-            <Route path="/statements" element={<MonthlyStatement />} />
+            <Route path="/tenants" element={<TenantList selectedBuilding={selectedBuilding} />} />
+            <Route path="/expenses" element={<Expenses selectedBuilding={selectedBuilding} />} />
+            <Route path="/statements" element={<MonthlyStatement selectedBuilding={selectedBuilding} />} />
             <Route path="/add-expense" element={<AddExpense />} />
           </Routes>
         </Main>

@@ -2,6 +2,7 @@ import { Card } from "../ui/Card";
 import { SUMMARY_STYLES, TEXT_STYLES } from "../../constants/styles";
 import type { Building } from "../../types/buildings";
 import {calculateMonthlyCosts} from "../../utils/calculateMonthlyCosts";
+import type { Expense } from "../../types/expenses";
 
 const summaryRows = [
   { label: "Total Units", value: "24" },
@@ -13,13 +14,14 @@ const summaryRows = [
 ];
 interface BuildingSummaryProps {
   building: Building | null;
+  expenses: Expense[];
 }
-export function BuildingSummary({ building }: BuildingSummaryProps) {
+export function BuildingSummary({ building, expenses }: BuildingSummaryProps) {
   const summaryRows = [
   { label: "Total Units", value: building?.units.toString() || "N/A" },
   { label: "Occupied Units", value: building?.occupiedUnits?.toString() || "N/A" },
   { label: "Monthly Rent Income", value: building?.monthlyRentIncome?.toString() || "N/A" },
-  { label: "Monthly Operating Costs", value: building ? calculateMonthlyCosts(building.expenses).toString() : "N/A", negative: true },
+  { label: "Monthly Operating Costs", value: building ? calculateMonthlyCosts(expenses).toString() : "N/A", negative: true },
   { label: "Line of Credit Payment", value: building?.lineOfCreditPayment?.toString() || "N/A", negative: true },
 ];
   return (

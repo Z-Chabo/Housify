@@ -7,7 +7,7 @@ export function Navbar() {
   const navItems = [
     { label: "Overview", icon: MdMenu, active: true },
     { label: "Tenants", icon: MdPerson },
-    { label: "Financials", icon: MdShowChart },
+    { label: "Expenses", icon: MdAssignment },
     { label: "Statements", icon: MdAssignment },
     { label: "Add Expense", icon: MdAssignment }
   ];

@@ -1,3 +1,5 @@
-import { serveBuildings } from "./src/services/serveBuildings.js";
 
-serveBuildings();
+import { createServer } from "./src/services/server.js";
+
+createServer();
+

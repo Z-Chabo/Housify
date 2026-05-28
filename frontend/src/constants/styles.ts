@@ -35,6 +35,11 @@ export const TEXT_STYLES = {
   brand: "text-base font-semibold text-slate-900",
   muted: "text-sm text-slate-500",
   row_value: "font-medium text-slate-900",
+  tenant_list: "mt-6 space-y-4",
+  tenant_card:
+    "rounded-2xl border border-slate-200 bg-white p-5 shadow-sm space-y-2 transition hover:border-slate-300 hover:shadow-md",
+  tenant_name: "text-lg font-semibold tracking-tight text-slate-900",
+  tenant_detail: "text-sm leading-relaxed text-slate-600",
   metric_value: "text-slate-900",
   danger: "text-rose-600",
   negative_value: "font-medium text-rose-600",
@@ -51,6 +56,18 @@ export const BADGE_STYLES = {
 export const SUMMARY_STYLES = {
   list: "mt-4 divide-y divide-gray-400 text-sm text-slate-600",
   row: "flex justify-between py-4",
+};
+
+/** Expenses list (Financials page) */
+export const EXPENSES_STYLES = {
+  list: "mt-4 divide-y divide-slate-200",
+  row: "flex flex-col gap-2 py-4 sm:flex-row sm:items-start sm:justify-between sm:gap-6",
+  row_left: "min-w-0 flex-1",
+  row_right: "flex shrink-0 flex-col gap-1 sm:items-end sm:text-right",
+  category: "text-xs font-semibold uppercase tracking-wide text-slate-400",
+  payee: "text-sm text-slate-600",
+  amount: "text-base font-semibold tabular-nums text-slate-900",
+  empty: "mt-6 rounded-2xl border border-dashed border-slate-200 bg-slate-50 px-4 py-8 text-center",
 };
 
 export const ICON_SIZES = {

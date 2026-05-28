@@ -1,0 +1,317 @@
+[
+  {
+    "id": "exp001",
+    "buildingId": "bldg001",
+    "category": "utilities",
+    "payee": "Hydro-Québec",
+    "amount": 1850,
+    "description": "May electricity — common areas and building systems",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp002",
+    "buildingId": "bldg001",
+    "category": "utilities",
+    "payee": "Bell Canada",
+    "amount": 420,
+    "description": "Business internet and lobby Wi‑Fi",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp003",
+    "buildingId": "bldg001",
+    "category": "operations",
+    "payee": "ProClean Montréal",
+    "amount": 950,
+    "description": "Weekly cleaning — hallways, lobby, and elevators",
+    "date": "2026-05-05"
+  },
+  {
+    "id": "exp004",
+    "buildingId": "bldg001",
+    "category": "operations",
+    "payee": "Neige Plus Inc.",
+    "amount": 700,
+    "description": "Snow removal contract — parking and walkways",
+    "date": "2026-05-10"
+  },
+  {
+    "id": "exp005",
+    "buildingId": "bldg001",
+    "category": "taxes",
+    "payee": "Ville de Montréal",
+    "amount": 2600,
+    "description": "Monthly municipal property tax installment",
+    "date": "2026-05-15"
+  },
+  {
+    "id": "exp006",
+    "buildingId": "bldg001",
+    "category": "insurance",
+    "payee": "Intact Assurance",
+    "amount": 1100,
+    "description": "Building liability and property insurance premium",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp007",
+    "buildingId": "bldg001",
+    "category": "maintenance",
+    "payee": "Réparations Tremblay",
+    "amount": 630,
+    "description": "Plumbing repair — unit 12B leak",
+    "date": "2026-05-18"
+  },
+  {
+    "id": "exp008",
+    "buildingId": "bldg002",
+    "category": "utilities",
+    "payee": "Hydro-Québec",
+    "amount": 1200,
+    "description": "May electricity — building and exterior lighting",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp009",
+    "buildingId": "bldg002",
+    "category": "utilities",
+    "payee": "Vidéotron",
+    "amount": 300,
+    "description": "Cable and internet for property office",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp010",
+    "buildingId": "bldg002",
+    "category": "operations",
+    "payee": "Sparkle Janitorial",
+    "amount": 650,
+    "description": "Bi-weekly janitorial — units and common areas",
+    "date": "2026-05-06"
+  },
+  {
+    "id": "exp011",
+    "buildingId": "bldg002",
+    "category": "grounds",
+    "payee": "Vert Paysage",
+    "amount": 450,
+    "description": "Spring landscaping — lawn and garden beds",
+    "date": "2026-05-12"
+  },
+  {
+    "id": "exp012",
+    "buildingId": "bldg002",
+    "category": "taxes",
+    "payee": "Ville de Laval",
+    "amount": 1900,
+    "description": "Monthly municipal property tax installment",
+    "date": "2026-05-15"
+  },
+  {
+    "id": "exp013",
+    "buildingId": "bldg002",
+    "category": "insurance",
+    "payee": "Desjardins Assurances",
+    "amount": 900,
+    "description": "Property and liability insurance premium",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp014",
+    "buildingId": "bldg002",
+    "category": "maintenance",
+    "payee": "Maintenance 24/7 Laval",
+    "amount": 700,
+    "description": "HVAC service — rooftop unit inspection",
+    "date": "2026-05-20"
+  },
+  {
+    "id": "exp015",
+    "buildingId": "bldg003",
+    "category": "utilities",
+    "payee": "Hydro-Québec",
+    "amount": 980,
+    "description": "May electricity — loft conversion common power",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp016",
+    "buildingId": "bldg003",
+    "category": "utilities",
+    "payee": "Rogers Communications",
+    "amount": 220,
+    "description": "Fiber internet — building management",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp017",
+    "buildingId": "bldg003",
+    "category": "operations",
+    "payee": "CleanSweep Griffintown",
+    "amount": 500,
+    "description": "Monthly cleaning — stairwells and entrance",
+    "date": "2026-05-07"
+  },
+  {
+    "id": "exp018",
+    "buildingId": "bldg003",
+    "category": "security",
+    "payee": "GardaWorld",
+    "amount": 350,
+    "description": "Security monitoring and alarm panel service",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp019",
+    "buildingId": "bldg003",
+    "category": "taxes",
+    "payee": "Ville de Montréal",
+    "amount": 1450,
+    "description": "Monthly municipal property tax installment",
+    "date": "2026-05-15"
+  },
+  {
+    "id": "exp020",
+    "buildingId": "bldg003",
+    "category": "insurance",
+    "payee": "Aviva Canada",
+    "amount": 750,
+    "description": "Building insurance — annual premium (May portion)",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp021",
+    "buildingId": "bldg003",
+    "category": "maintenance",
+    "payee": "Canal Street Contractors",
+    "amount": 450,
+    "description": "Elevator door adjustment and lubrication",
+    "date": "2026-05-22"
+  },
+  {
+    "id": "exp022",
+    "buildingId": "bldg004",
+    "category": "utilities",
+    "payee": "Hydro-Québec",
+    "amount": 2400,
+    "description": "May electricity — 30-unit building and garage",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp023",
+    "buildingId": "bldg004",
+    "category": "utilities",
+    "payee": "Bell Canada",
+    "amount": 550,
+    "description": "Internet and intercom system connectivity",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp024",
+    "buildingId": "bldg004",
+    "category": "operations",
+    "payee": "Sparkle Janitorial",
+    "amount": 1400,
+    "description": "Full-time janitorial — common areas and gym",
+    "date": "2026-05-05"
+  },
+  {
+    "id": "exp025",
+    "buildingId": "bldg004",
+    "category": "operations",
+    "payee": "Neige Plus Inc.",
+    "amount": 950,
+    "description": "Snow removal and salting — large parking lot",
+    "date": "2026-05-08"
+  },
+  {
+    "id": "exp026",
+    "buildingId": "bldg004",
+    "category": "taxes",
+    "payee": "Ville de Montréal",
+    "amount": 3400,
+    "description": "Monthly municipal property tax installment",
+    "date": "2026-05-15"
+  },
+  {
+    "id": "exp027",
+    "buildingId": "bldg004",
+    "category": "insurance",
+    "payee": "Intact Assurance",
+    "amount": 1550,
+    "description": "Property and liability insurance premium",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp028",
+    "buildingId": "bldg004",
+    "category": "maintenance",
+    "payee": "Côte-Saint-Luc Maintenance Co.",
+    "amount": 1000,
+    "description": "Boiler annual inspection and minor repairs",
+    "date": "2026-05-19"
+  },
+  {
+    "id": "exp029",
+    "buildingId": "bldg005",
+    "category": "utilities",
+    "payee": "Hydro-Québec",
+    "amount": 1050,
+    "description": "May electricity — building and exterior",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp030",
+    "buildingId": "bldg005",
+    "category": "utilities",
+    "payee": "Vidéotron",
+    "amount": 260,
+    "description": "Internet for property management office",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp031",
+    "buildingId": "bldg005",
+    "category": "operations",
+    "payee": "ProClean Montréal",
+    "amount": 450,
+    "description": "Bi-weekly cleaning — halls and laundry room",
+    "date": "2026-05-06"
+  },
+  {
+    "id": "exp032",
+    "buildingId": "bldg005",
+    "category": "grounds",
+    "payee": "Vert Paysage",
+    "amount": 300,
+    "description": "Lawn mowing and hedge trimming — May visit",
+    "date": "2026-05-14"
+  },
+  {
+    "id": "exp033",
+    "buildingId": "bldg005",
+    "category": "taxes",
+    "payee": "Ville de Longueuil",
+    "amount": 1700,
+    "description": "Monthly municipal property tax installment",
+    "date": "2026-05-15"
+  },
+  {
+    "id": "exp034",
+    "buildingId": "bldg005",
+    "category": "insurance",
+    "payee": "Desjardins Assurances",
+    "amount": 800,
+    "description": "Building insurance premium — May portion",
+    "date": "2026-05-01"
+  },
+  {
+    "id": "exp035",
+    "buildingId": "bldg005",
+    "category": "maintenance",
+    "payee": "Oakview Repair Services",
+    "amount": 640,
+    "description": "Fire door replacement — 3rd floor corridor",
+    "date": "2026-05-21"
+  }
+]
